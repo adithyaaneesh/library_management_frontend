@@ -1,10 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
+import AddBook from './components/AddBook';
 
 const App = () => {
   return (
     <div>
-      
+      <AddBook/>
     </div>
   )
 }
