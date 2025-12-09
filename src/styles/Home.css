@@ -1,0 +1,94 @@
+.home-container {
+  width: 90%;
+  margin: 30px auto;
+}
+
+.home-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Top Section */
+.top-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+/* Add Button */
+.add-btn {
+  background: green;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.add-btn:hover {
+  background: #0a7a0a;
+}
+
+/* Search Box */
+.search-box input {
+  padding: 8px;
+  width: 200px;
+  margin-right: 10px;
+}
+
+.search-box button {
+  padding: 8px 15px;
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.search-box button:hover {
+  background: #0056b3;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+table th, table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+table th {
+  background: #f2f2f2;
+}
+
+.edit-btn {
+  background: orange;
+  border: none;
+  padding: 6px 10px;
+  color: white;
+  cursor: pointer;
+  margin-right: 5px;
+  border-radius: 4px;
+}
+
+.delete-btn {
+  background: red;
+  border: none;
+  padding: 6px 10px;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.edit-btn:hover {
+  background: #cc8400;
+}
+
+.delete-btn:hover {
+  background: #b30000;
+}

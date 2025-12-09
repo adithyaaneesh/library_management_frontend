@@ -1,12 +1,18 @@
-import './App.css';
-import AddBook from './components/AddBook';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./components/Home";
+import AddBook from "./components/AddBook";
+import Update from "./components/Update";
 
-const App = () => {
+function App() {
   return (
-    <div>
-      <AddBook/>
-    </div>
-  )
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/add" element={<AddBook />} />
+        <Route path="/edit/:id" element={<Update />} />
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
 export default App;
